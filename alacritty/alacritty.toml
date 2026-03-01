@@ -1,0 +1,13 @@
+[font]
+size = 16.0
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[window]
+dimensions = { columns = 80, lines = 24 }
+padding = { x = 10, y = 10 }
+title = "Arch Above All"
+opacity = 0.8
+

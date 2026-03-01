@@ -108,6 +108,11 @@
     "memory": {
         "format": "{}% "
     },
+    "disk": {
+      "interval": 5,
+      "format": "{percentage_used}%",
+      "on-click": "dolphin"
+    },
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",

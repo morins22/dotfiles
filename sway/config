@@ -10,10 +10,10 @@ set $up k
 set $right l
 
 # Your preferred terminal emulator
-set $term foot
+set $term alacritty
 
 # Your preferred application launcher
-set $menu rofi -show-icons -theme fancy2.rasi
+set $menu rofi -show drun -show-icons -theme ~/.config/rofi/theme.rasi
 
 # Default wallpaper 
 output * bg /home/shawn/Pictures/SwayWallpaper.png fill
@@ -52,7 +52,7 @@ input type:touchpad {
     bindsym $mod+Shift+q kill
 
     # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+d exec $menu 
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -200,9 +200,9 @@ bar {
     swaybar_command exec waybar
 }
 
-# gaps
-gaps inner 20
-gaps outer 10
+#gaps
+gaps inner 0
+gaps outer 5
 smart_gaps off
 
 #colors
