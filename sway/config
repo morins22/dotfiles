@@ -13,9 +13,8 @@ set $right l
 set $term alacritty
 
 # Your preferred application launcher
-set $menu rofi -show drun -show-icons -theme ~/.config/rofi/theme.rasi
-
-# Default wallpaper 
+set $menu ~/.config/rofi/launchers/type-7/launcher.sh
+# Default wallpaper
 output * bg /home/shawn/Pictures/SwayWallpaper.png fill
 
 # External Monitor Config (L/R side)

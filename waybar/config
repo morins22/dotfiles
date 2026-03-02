@@ -12,7 +12,7 @@
         "network",
         "cpu",
         "memory",
-	"disk",
+	      "disk",
         "temperature",
         "battery",
         "tray",
@@ -89,7 +89,7 @@
     },
     "tray": {
         "icon-size": 22,
-        "spacing": 10,
+        "spacing": 20,
         "icons": {
         "blueman": "bluetooth",
         "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
